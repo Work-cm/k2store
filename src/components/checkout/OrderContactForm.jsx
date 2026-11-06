@@ -10,7 +10,7 @@ import {
   FaCommentDots,
 } from 'react-icons/fa';
 
-const WHATSAPP_NUMBER = '15125922145'; // +1 512-592-2145
+const WHATSAPP_NUMBER = '19852913802'; // +1 985-291-3802
 const TELEGRAM_NUMBER = 'cannachem'; // @cannachem
 
 function buildMessage({ name, contact, address, notes }, cart, orderDetails) {
@@ -144,7 +144,7 @@ export default function OrderContactForm({ cart, orderDetails }) {
               required
               value={form.contact}
               onChange={handleChange}
-              placeholder={method === 'whatsapp' ? '+1 512-592-2145' : '@yourusername'}
+              placeholder={method === 'whatsapp' ? '+1 985-291-3802' : '@yourusername'}
               className={inputClass}
             />
           </div>
