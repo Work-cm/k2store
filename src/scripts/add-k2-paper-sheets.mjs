@@ -35,8 +35,8 @@ const products = [
 
 ${SHARED_FACTS}
 
-Available in packs of 1, 2, 3, 4, 5 or 10 A4 sheets.`,
-    priceVariants: SHEETS([150, 220, 320, 420, 500, 8200]),
+Available in packs of 2, 3, 4, 5 or 10 A4 sheets.`,
+    priceVariants: [2, 3, 4, 5, 10].map((q, i) => ({ quantity: q, price: [250, 320, 420, 500, 8200][i] })),
     countInStock: 60, rating: 4.9, numReviews: 9, featured: true,
   },
   {
